@@ -1,0 +1,711 @@
+83/* Form */
+form input[type="submit"] {
+	cursor: pointer;
+	text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+main section form input:not(input[type="radio"], input[type="submit"], input[type="checkbox"]) {
+	height: 68px;
+}
+main section form input:not(input[type="radio"], input[type="submit"], input[type="checkbox"]),
+main section form textarea {
+	background-color: #fff;
+	width: 100%;
+	border-radius: 5px;
+	outline: 0;
+	padding: 10px 18px;
+}
+main section form input:not(input[type="submit"]),
+main section .wpcf7-radio .wpcf7-list-item-label,
+main section form input::placeholder,
+main section form textarea::placeholder, main section form textarea,
+.form-section form .accordion-title h4,
+.form-section .main-checkbox-label-col, .form-section .main-checkbox-value-col {
+	font-family: "azo-sans-web",sans-serif;
+	font-size: 1.50rem;
+	line-height: 2.31rem;
+	letter-spacing: 0.06rem;
+}
+main section form input:not(input[type="submit"]),
+main section .wpcf7-radio .wpcf7-list-item-label,
+main section form input::placeholder,
+main section form textarea::placeholder, main section form textarea {
+	color: #252525;
+}
+main section form textarea {
+	resize: none;
+	height: 235px;
+}
+main section form .description-txt {
+	font-size: 1.25rem;
+	line-height: 2.31rem;
+	font-weight: 700;
+	font-family: "azo-sans-web",sans-serif;
+	margin-bottom: 30px;
+	padding-left: 20px;
+}
+
+/* CTA Section Form */
+.cta-section form .wpcf7-email {
+	background-color: #f1f1f1;
+	height: 45px; 
+	border-radius: 5px;
+	outline: 0;
+	padding: 10px 20px;
+	width: 100%;
+}
+.cta-section form .wpcf7-email::placeholder {
+	font-style: italic;
+}
+.cta-section form .wpcf7-email, .cta-section form .wpcf7-email::placeholder {
+	color: rgb(37 37 37 / 40%);
+}
+.cta-section input[type="submit"] {
+	background-color: var(--black);
+    padding: 9px 25px;
+    border-radius: 5px;
+}
+
+/* Form Section */
+.form-section form input:not(input[type="radio"], input[type="submit"]) {
+	border: 1px solid #C2C2C2;
+}
+.form-section .form-radio-btn {
+	justify-content: space-between;
+}
+.form-section .form-radio-btn .wpcf7-radio .wpcf7-list-item {
+	display: block;
+	margin-left: 0;
+}
+.form-section .form-radio-btn .wpcf7-radio .wpcf7-list-item:not(:last-child) {
+	margin-bottom: 38px;
+}
+.form-section .lg\:flex:not(.form-radio-btn) .wpcf7-form-control-wrap {
+	width: 100%;
+}
+.form-section input[type="submit"] {
+	font-size: 1rem;
+	line-height: 1.63rem;
+	letter-spacing: 0.06rem;
+}
+.form-section input[type="submit"]:hover {
+	color: var(--secondary-color);
+}
+.form-section .wpcf7-radio .wpcf7-list-item-label {
+	margin-left: 5px;
+}
+.form-section input[type='radio'] {
+    width: 20px;
+    height: 20px;
+    -webkit-appearance: none;
+    border: 2px solid var(--secondary-color);
+    border-radius: 50%;
+    outline: none;
+    background-color: #fff;
+}
+.form-section input[type='radio']:checked {
+    background-color: var(--secondary-color);
+}
+.form-section form input[type="checkbox"] {
+	width: 18px;
+    height: 18px;
+}
+.form-section .entry-fee-field button {
+	background-color: var(--secondary-color); 
+	color: #fff; 
+    border-radius: 5px;
+	font-family: "azo-sans-web",sans-serif;
+	font-size: 1rem;
+    line-height: 1.63rem;
+	padding: 10px;
+	text-transform: uppercase;
+	border: 2px solid var(--secondary-color);
+}
+.form-section .entry-fee-field button.wpcf7-field-group-add {
+	padding: 10px 25px;
+}
+.form-section form .accordion-title {
+	padding: 16px 40px;
+	cursor: pointer;
+}
+.form-section .accordion-row.active .accordion-title {
+	background: #810004;
+}
+.form-section .accordion-content {
+	display: none;
+	overflow: hidden;
+	background-color: #fafafa;
+}
+.form-section .accordion-title:after {
+	content: "\f078";
+	font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+	position: absolute;
+	right: 40px;
+	top: 0;
+	line-height: 68px;
+	color: #fff;
+}
+.form-section .accordion-row.active .accordion-title:after {
+	content: "\f077";
+}
+.form-section .accordion-row {
+    margin-bottom: 8px;
+}
+.form-section form .checkbox-titles h3 {
+	font-size: 1.75rem;
+	line-height: 2.38rem;
+	letter-spacing: 0.06rem;
+}
+.form-section form .checkbox-titles {
+	padding: 20px 0;
+	background-color: #bababa;
+}
+.form-section .wpcf7-checkbox .wpcf7-list-item {
+	margin-left: 0;
+}
+.form-section form .accordion-content .content .checkbox-grid:not(:last-child) {
+	margin-bottom: 14px;
+}
+.form-section form .accordion-wrapper .wpcf7-form-control-wrap, .form-section form .accordion-content .content .checkbox-grid.checkbox-titles {
+	margin-bottom: 0;
+}
+.form-section form .checkbox-grid {
+	display: grid;
+    grid-template-columns: 70% 30%;
+}
+.form-section form .accordion-wrapper.last-accordion {
+	margin-bottom: 45px;
+}
+
+/*** Form Group Checkbox ***/
+.form-section .accordion-content.default-open, 
+.form-section [data-class="wpcf7cf_group"] .wpcf7-checkbox .wpcf7-list-item {
+	display: block;
+}
+.form-section form [data-class="wpcf7cf_group"] {
+	display: block !important;
+}
+.form-section .main-checkbox-value {
+	background-color: #e0e0e0;
+	display: block;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	font-weight: bold;
+}
+.form-section form .main-checkbox-label-col .wpcf7-form-control-wrap {
+	margin-bottom: 0;
+}
+.form-section form .main-checkbox-value-col {
+	text-align: center;
+}
+.form-section form [data-class="wpcf7cf_group"] [data-class="wpcf7cf_group"],
+.form-section form .main-checkbox-value-col .checkbox-sub-value {
+	padding-top: 30px;
+}
+.form-section form .main-checkbox-label-col [data-class="wpcf7cf_group"] [data-class="wpcf7cf_group"] .wpcf7-list-item,
+.form-section form .main-checkbox-value-col .checkbox-sub-value p {
+	padding-bottom: 12px;
+}
+/* Contact Page Form */
+
+.contact-form-section form input[type="submit"] {
+	padding: 8px 32px;
+}
+.contact-form-section form input:not(input[type="submit"]), .contact-form-section form textarea {
+	padding: 10px 24px;
+}
+.contact-form-section form textarea {
+	margin-bottom: 30px;
+}
+
+/* Video page */
+.video-holder .play-icon {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    top: 35%;
+    z-index: 9;
+    cursor: pointer;
+}
+.video-holder, .video-holder .video-image {
+    position: relative;
+}
+.video-holder .video-image:not(.video-played):before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #0000006e;
+    display: block;
+    z-index: 0;
+    position: absolute;
+}
+.video-holder iframe, .video-holder .video-image img {
+    width: 100%;
+}
+.video-holder .video-image img {
+    object-fit: cover
+}
+.video-holder .play-icon i {
+    color: #fff;
+    font-size: 50px;
+}
+.video-holder .video-image.video-played img {
+	display: none;
+}
+.video-holder .video-image img {
+    width: 100%;
+    height: 326px;
+}
+
+/* Schedule page */
+.tribe-events-header {
+    background-color: var(--secondary-color);
+}
+.tribe-events-header .tribe-events-header__events-bar, .tribe-events-header .tribe-events-header__top-bar .tribe-events-c-top-bar__today-button, .tribe-events-header .tribe-events-header__top-bar .tribe-events-c-top-bar__datepicker .tribe-events-c-top-bar__datepicker-button svg {
+    display: none !important;
+}
+.tribe-events-header .tribe-events-header__top-bar {
+    text-align: center;
+}
+.tribe-events-header .tribe-events-header__top-bar .tribe-events-c-top-bar__datepicker .tribe-events-c-top-bar__datepicker-button {
+    width: 100%;
+    color: #fff;
+    justify-content: center;
+    padding: 25px 0;
+	font-size: 30px;
+    line-height: 40px;
+    font-family: "modesto-poster",serif;
+}
+.tribe-events-header .tribe-events-header__top-bar {
+    margin-bottom: 0 !important;
+}
+.tribe-events-header .tribe-events-header__messages, .tribe-events-header .tribe-events-header__messages svg, .tribe-events-header .tribe-events-header__messages a {
+    color: #fff;
+}
+.tribe-events-pro .tribe-events-pro-week-grid__header-column-weekday {
+    font-size: 16px;
+    line-height: 26px;
+}
+.tribe-events-pro .tribe-events-pro-week-grid__header-column-weekday, .tribe-common--breakpoint-medium.tribe-common .tribe-common-h4 {
+    letter-spacing: 1px;
+    font-family: "azo-sans-web",sans-serif;
+}
+.tribe-common--breakpoint-medium.tribe-common .tribe-common-h4 {
+    font-size: 25px;
+    line-height: 35px;
+}
+.tribe-events-pro .tribe-events-pro-week-grid__header-column-datetime {
+    padding-top: 20px;
+}
+.tribe-events-pro .tribe-events-pro-week-grid__header-column--current .tribe-events-pro-week-grid__header-column-daynum, .tribe-events-pro .tribe-events-pro-week-grid__events-time-tag {
+    color: #000 !important;
+}
+.tribe-events-pro .tribe-events-pro-week-grid__events-time-tag {
+    text-transform: uppercase !important;
+    font-size: 20px !important;
+    line-height: 30px !important;
+    font-weight: 600 !important;
+}
+/* .tribe-events-pro .tribe-events-pro-week-grid__header-column, .tribe-events-pro .tribe-events-pro-week-grid__events-day {
+    width: 152px !important; 
+} */
+.tribe-events-pro-week-grid__header-column.tribe-events-pro-week-grid__header-column--empty {
+    width: 95px !important;
+}
+.tribe-events-pro .tribe-events-pro-week-grid__events-row-header, .tribe-events-pro .tribe-events-pro-week-grid__header-column--border-bottom {
+    /* width: 108px !important; */
+    margin-left: 0 !important;
+}
+.tribe-events-header .tribe-events-header__top-bar .tribe-events-c-top-bar__nav-link--prev {
+    left: 30px;
+}
+.tribe-events-header .tribe-events-header__top-bar .tribe-events-c-top-bar__nav-link--next {
+    right: 30px;
+}
+.tribe-events-header .tribe-events-header__top-bar .tribe-events-c-top-bar__nav-link--prev, .tribe-events-header .tribe-events-header__top-bar .tribe-events-c-top-bar__nav-link--next {
+    position: absolute;
+    z-index: 1;
+    top: 37px;
+}
+.tribe-events-header .tribe-events-header__top-bar .tribe-events-c-top-bar__nav-link--prev:before {
+	content: url(../images/white-left-arrow.svg);
+}
+.tribe-events-header .tribe-events-header__top-bar .tribe-events-c-top-bar__nav-link--next:before {
+	content: url(../images/white-right-arrow.svg);
+}
+.tribe-events-header .tribe-events-header__top-bar .tribe-events-c-top-bar__nav-link--prev svg, .tribe-events-header .tribe-events-header__top-bar .tribe-events-c-top-bar__nav-link--next svg {
+    display: none;
+}
+
+.tribe-events-pro .tribe-events-pro-week-grid__event-link-inner {
+    background-color: #000 !important;
+}
+.tribe-events-pro .tribe-events-pro-week-grid__event-link-inner * {
+    color: #fff !important;
+}
+.tribe-common .tribe-common-c-svgicon--recurring path {
+    fill: #fff;
+    stroke: #fff;
+}
+.tribe-events-pro .tribe-events-pro-week-grid__event-link-inner:hover {
+    background-color: #5f5f5f !important;
+}
+.tribe-events-pro .tribe-events-pro-week-grid__event--past .tribe-events-pro-week-grid__event-link-inner {
+    background-color: #585454 !important;
+}
+.tribe-events-pro .tribe-events-pro-week-grid__event--past .tribe-events-pro-week-grid__event-link-inner:hover {
+    background-color: #979797 !important;
+}
+/* Single event */
+.single-tribe_events #tribe-events {
+    width: 100%;
+    margin: 0 auto;
+    padding: 3rem;
+}
+/* Full width section */
+.page-template-template-entry-form .full-width-section .wysiwyg-content ul {
+    list-style: disc;
+}
+.page-template-template-entry-form .full-width-section .wysiwyg-content ul li {
+    padding-bottom: 5px;
+}
+.page-template-template-entry-form .full-width-section .wysiwyg-content p {
+	    clear: both;
+}
+.page-template-template-entry-form .full-width-section .wysiwyg-content a {
+    color: var(--secondary-color);
+}
+.page-template-template-entry-form .full-width-section .wysiwyg-content p:last-child {
+    text-align: center;
+}
+@media only screen and (min-width: 640px) {
+    .single-tribe_events #tribe-events {
+        max-width: 640px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .single-tribe_events #tribe-events {
+        max-width: 768px;
+    }
+	.post-type-archive-tribe_events .bottom-content{
+		margin-top:-100px;
+	}
+	
+}
+@media only screen and (min-width: 1024px) {
+    .single-tribe_events #tribe-events {
+        max-width: 1024px;
+    }
+	.page-template-template-entry-form .full-width-section .wysiwyg-content p:last-child {
+		padding: 10px 100px;
+	}
+	.page-template-template-entry-form .full-width-section .wysiwyg-content p:not(:last-child) {
+		padding: 10px 0 10px 100px;
+    	display: flex;
+	}
+}
+@media only screen and (min-width: 1280px){
+    .single-tribe_events #tribe-events {
+        max-width: 1280px;
+    }
+}
+@media only screen and (min-width: 1536px){
+    .single-tribe_events #tribe-events {
+        max-width: 1536px;
+    }
+}
+
+
+/* Tickets page */
+.page-Tickets{
+	background-image: url('../images/horse-1.jpg') !important;
+}
+
+
+@media only screen and (max-width: 1023px) { 
+	.cta-section form .wpcf7-email {
+		margin: 23px 0; 
+    	max-width: 355px;
+	}
+	main section form input:not(input[type="submit"], input[type="radio"]),
+	.form-section .entry-fee-field button.wpcf7-field-group-add {
+		margin-bottom: 20px;
+	}
+	.form-section input[type="submit"] {
+		margin-top: 30px;
+	}
+	.form-section .wpcf7-field-group-remove {
+		margin-right: 15px;
+	}
+	.form-section .entry-fee-field button.wpcf7-field-group-add {
+    	padding: 10px 15px; 
+	}
+	.form-section [data-class="wpcf7cf_group"] .wpcf7-checkbox .wpcf7-list-item {
+		display: flex;
+		align-items: baseline;
+	}
+	.form-section form input[type="checkbox"] {
+		margin-bottom: 0;
+		flex-shrink: 0;
+		margin-right: 10px;
+	}
+	.form-section form .main-checkbox-label-col [data-class="wpcf7cf_group"] [data-class="wpcf7cf_group"] .wpcf7-list-item,
+	.form-section form .main-checkbox-label-col .main-checkbox-value, .form-section form .checkbox-titles h3:first-child {
+		padding-left: 20px;
+	}
+	.form-section form .main-checkbox-value-col p, .form-section form .checkbox-titles h3:last-child {
+		padding-right: 20px;
+	}
+	.page-template-template-entry-form .full-width-section .wysiwyg-content img.alignright {
+		float: right;
+		padding-bottom:20px;
+	}
+	/* .blog-section{
+		padding-top: 340px !important;
+	} */
+	/* for search */
+	.search-menu form input {
+		-webkit-appearance: unset;
+	}
+	/*for search */
+	header .top-bar{
+		display:none;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.sub-menu-anchor {
+		padding-bottom: 5px;
+		display: inline-block;
+	}
+	.cta-section form div[role="form"] {
+		display: flex;
+	}
+	.cta-section form div.w-full {
+		justify-content: flex-end;
+	}
+	.cta-section input[type="submit"] {
+		margin-left: 10px;
+	}
+	/* .form-section .lg\:flex:not(.form-radio-btn) .wpcf7-form-control-wrap[data-name="register_number"],  */
+	/* .form-section .lg\:flex:not(.form-radio-btn) .wpcf7-form-control-wrap[data-name="foal_year"], */
+	.form-section .lg\:flex:not(.form-radio-btn) .wpcf7-form-control-wrap[data-name="register-number"]
+	 {
+		width: 278px;
+	}
+	.form-section .lg\:flex:not(.form-radio-btn) .wpcf7-form-control-wrap[data-name="horse_name"] {
+		width: 1700px;
+	}
+	.form-section #wpcf7-f440-p155-o1 .lg\:flex:not(.form-radio-btn) .wpcf7-form-control-wrap[data-name="owner_name"],
+	.form-section #wpcf7-f440-p155-o1 .lg\:flex:not(.form-radio-btn) .wpcf7-form-control-wrap[data-name="rider_name"] {
+		width: 600px;
+	}
+	.form-section #wpcf7-f440-p155-o1 .lg\:flex:not(.form-radio-btn) .wpcf7-form-control-wrap[data-name="ncha-1"],
+	.form-section #wpcf7-f440-p155-o1 .lg\:flex:not(.form-radio-btn) .wpcf7-form-control-wrap[data-name="ncha-2"] {
+		width: 400px;
+	}
+	.form-section .lg\:flex:not(.form-radio-btn) {
+		column-gap: 10px; 
+	}
+	.form-section form .wpcf7-form-control-wrap {
+		margin-bottom: 30px;
+		display: block;
+	}
+	.form-section .form-radio-btn {
+		margin-top: 15px; 
+		margin-bottom: 15px;
+	}
+	.contact-form-section form .lg\:grid {
+		column-gap: 15px; 
+		margin-bottom: 20px;
+	}
+	.form-section form .entry-fee-field .wpcf7-field-group {
+		display: flex;
+		margin-bottom: 30px;
+	}
+	.form-section form .entry-fee-field .wpcf7-field-group .wpcf7-form-control-wrap {
+		width: 65%;
+		margin-right: 10px;
+		margin-bottom: 0;
+	}
+	.form-section form .entry-fee-field .wpcf7-field-group button.wpcf7-field-group-add {
+		width: 35%;
+	}
+	.form-section .entry-fee-field button.wpcf7-field-group-remove {
+		margin-right: 10px;
+	}
+	.form-section #wpcf7-f438-p153-o1 input[type="submit"] {
+		margin-top: 38px;
+	}
+	.form-section form .main-checkbox-label-col .main-checkbox-value,
+	.form-section form .checkbox-titles h3:first-child {
+		padding-left: 150px;
+	}
+	.form-section form .main-checkbox-value-col p,
+	.form-section form .checkbox-titles h3:last-child {
+		padding-right: 150px;
+	}
+	.form-section form .main-checkbox-label-col [data-class="wpcf7cf_group"] [data-class="wpcf7cf_group"] .wpcf7-list-item {
+		padding-left: 185px;
+	}
+	.video-holder iframe, .video-holder .video-image img {
+		height: 315px;
+	}
+	main{
+		padding-top:58px;
+	}
+}
+
+@media only screen and (min-width: 1536px) {
+	.main-menu >ul > li > a {
+		padding-top: 50px !important;
+		padding-bottom: 50px !important;
+	}
+	.main-menu ul li.menu-item-has-children:hover .sub-menu {
+		top: 74px !important;
+	}
+	.form-section .lg\:flex:not(.form-radio-btn) .wpcf7-form-control-wrap[data-name="register_number"], 
+	.form-section .lg\:flex:not(.form-radio-btn) .wpcf7-form-control-wrap[data-name="foal_year"],
+	.form-section .lg\:flex:not(.form-radio-btn) .wpcf7-form-control-wrap[data-name="register-number"] {
+		width: 314px;
+	}
+	.form-section .lg\:flex:not(.form-radio-btn) .wpcf7-form-control-wrap[data-name="horse_name"] {
+		width: 510px;
+	}
+	.form-section #wpcf7-f440-p155-o1 .lg\:flex:not(.form-radio-btn) .wpcf7-form-control-wrap[data-name="owner_name"],
+	.form-section #wpcf7-f440-p155-o1 .lg\:flex:not(.form-radio-btn) .wpcf7-form-control-wrap[data-name="rider_name"] {
+		width: 658px;
+	}
+	.form-section #wpcf7-f440-p155-o1 .lg\:flex:not(.form-radio-btn) .wpcf7-form-control-wrap[data-name="ncha-1"],
+	.form-section #wpcf7-f440-p155-o1 .lg\:flex:not(.form-radio-btn) .wpcf7-form-control-wrap[data-name="ncha-2"] {
+		width: 500px;
+	}
+}
+
+
+.main > header {
+	position: fixed;
+    width: 100%;
+    z-index: 11;
+	top:0;
+}
+
+.rules-regulations-section .list-decimal li ul{
+    padding-top: 20px;
+    padding-left:50px;
+}
+
+.form-section form .form-content{
+	justify-content: space-around;
+}
+
+.brazos-bash-entry-section{
+	min-height: 554px;
+}
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-l-container{
+   padding-bottom: 0px;
+}
+section.bottom-content{
+   margin-bottom: 60px;
+}
+
+@media only screen and (min-width:1200px) and (max-width:1440px){
+	.form-section .lg\:flex:not(.form-radio-btn) .wpcf7-form-control-wrap[data-name="horse_name"] {
+		width: 1100px;
+	}
+	.main section form input:not(input[type="submit"])::placeholder{
+		font-size: 1.07rem;
+		letter-spacing: 0;
+	}
+}
+
+/* hide last content form single event page */
+.single.single-tribe_events #main section.bottom-content{
+	display: none !important;
+}
+
+.tribe-events-pro .tribe-events-pro-week-grid__header-column, .tribe-events-pro .tribe-events-pro-week-grid__events-day {
+    width: 13% !important;
+}
+@media only screen and (min-width:768px) and (max-width:1200px){
+	.tribe-events-pro .tribe-events-pro-week-grid__header-column, .tribe-events-pro .tribe-events-pro-week-grid__events-day {
+		width: 12% !important;
+	}
+}
+
+.tribe-events-pro .tribe-events-pro-week-grid__events-row-header, .tribe-events-pro .tribe-events-pro-week-grid__header-column--border-bottom {
+    width: 108px !important;
+}
+
+ul.list-decimal li ul li p{
+    padding-top: 2.5rem;
+}
+
+@media only screen and (max-width:767px){
+	.post-type-archive-tribe_events .inner-page-hero-section {
+		background-position: 75%;
+	}
+	.post-type-archive-tribe_events .tribe-common.tribe-events.tribe-events-view{
+		padding-left:30px;
+		padding-right:30px;
+	}
+}
+
+
+/*for form pages */
+.intro-section .intro-content .wysiwyg-content .button-red{
+	display:inline-block;
+   }
+.page-template-template-entry-form .intro-section .intro-image{
+	padding-top:0px;
+} 
+.full-width-section .wysiwyg-content {
+	padding-left: 15px;
+}
+.page-template-template-entry-form .intro-section .intro-content .wysiwyg-content ul{
+	padding-left:10px;
+} 
+
+.post-type-archive-tribe_events .bottom-content{
+	padding-left:2.5rem;
+	padding-right:2.5rem;
+}
+
+.post-type-archive-tribe_events .tribe-common.tribe-events.tribe-events-view .tribe-common-l-container.tribe-events-l-container{
+	padding-bottom: 0;
+	min-height:auto;
+}
+
+.home .sponsors-section .swiper-button-next, .home .sponsors-section .swiper-button-prev{
+	top:40%;
+}
+@media not all and (min-resolution:.001dpcm) { 
+	@supports (-webkit-appearance:none) {
+		 @media only screen and (max-width:767px){
+			.inner-page-hero-section h1{
+				padding-left: 10px !important;
+				padding-right:10px !important;
+				word-break: break-word !important;
+			}
+		 }
+		 section.hero-section.relative video.video{
+			margin-top:-10px;
+		}
+	}
+}
+
+.rules-regulations-section .wysiwyg-content .list-decimal {
+	margin-left:30px;
+}
+
+.blog-section .pagination .prev.page-numbers{
+	padding-right:40px;
+}
+.blog-section .pagination .next.page-numbers{
+	padding-left:40px;
+}
+

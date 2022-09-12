@@ -1,0 +1,22 @@
+.tribe-events-pro .tribe-events-pro-week-grid__header-column, .tribe-events-pro .tribe-events-pro-week-grid__events-day {
+    width: 13% !important;
+  }
+  @media only screen and (min-width:768px) and (max-width:1200px){
+  .tribe-events-pro .tribe-events-pro-week-grid__header-column, .tribe-events-pro .tribe-events-pro-week-grid__events-day {
+    width: 12% !important;
+  }
+  }
+  
+  .tribe-events-pro .tribe-events-pro-week-grid__events-row-header, .tribe-events-pro .tribe-events-pro-week-grid__header-column--border-bottom {
+    width: 108px !important;
+  }
+  
+  ul.list-decimal li ul li p{
+    padding-top: 2.5rem;
+  }
+  
+  @media only screen and (max-width:767px){
+  .post-type-archive-tribe_events .inner-page-hero-section {
+    background-position: 75%;
+  }
+  }
