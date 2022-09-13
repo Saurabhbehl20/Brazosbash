@@ -1,5 +1,4 @@
-
-  const header_swiper = new Swiper('.header-swiper', {
+const header_swiper = new Swiper('.header-swiper', {
     autoplay: {
         delay: 5000,
     },
@@ -392,5 +391,3 @@
       calculate_total();
     });
   });
-  // application code
-

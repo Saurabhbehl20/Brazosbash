@@ -1,18 +1,18 @@
 {
   "app": {
     "js": [
-      "runtime.194772.js",
-      "app.0fb155.js"
+      "runtime.e377de.js",
+      "app.854600.js"
     ],
     "css": [
-      "app.c71d87.css"
+      "app.06b575.css"
     ],
     "dependencies": []
   },
   "editor": {
     "js": [
-      "runtime.194772.js",
-      "editor.8b878c.js"
+      "runtime.e377de.js",
+      "editor.25e05c.js"
     ],
     "css": [
       "editor.31d6cf.css"
