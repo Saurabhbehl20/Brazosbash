@@ -1,5 +1,5 @@
 {
-  "app.css": "app.06b575.css",
+  "app.css": "app.2c55a8.css",
   "app.js": "app.854600.js",
   "editor.css": "editor.31d6cf.css",
   "editor.js": "editor.25e05c.js",
@@ -8,6 +8,7 @@
   "Interested-pattern-bg.png": "Interested-pattern-bg.8364d5.png",
   "Brazos-Bash-Entry.jpg": "Brazos-Bash-Entry.a284e1.jpg",
   "horse-1.jpg": "horse-1.4b45c8.jpg",
+  "images/horse-1.jpg": "images/horse-1.4b45c8.jpg",
   "sponsors-bg.jpg": "sponsors-bg.ebda63.jpg",
   "form-pattern-bg.jpg": "form-pattern-bg.bc2133.jpg",
   "Interested-in-joining-BG.jpg": "Interested-in-joining-BG.4555c4.jpg",
@@ -22,10 +23,12 @@
   "dollar_icon.svg": "dollar_icon.61cda2.svg",
   "play-button 1.svg": "play-button 1.c99e59.svg",
   "red-menu-icon.svg": "red-menu-icon.e0ef74.svg",
+  "images/white-right-arrow.svg": "images/white-right-arrow.ab5684.svg",
   "white-right-arrow.svg": "white-right-arrow.ab5684.svg",
   "right-red-arrow.svg": "right-red-arrow.afb00d.svg",
   "red-search-icon.svg": "red-search-icon.5c0365.svg",
   "white-search-icon.svg": "white-search-icon.21b174.svg",
   "left-red-arrow.svg": "left-red-arrow.7f3928.svg",
+  "images/white-left-arrow.svg": "images/white-left-arrow.d25593.svg",
   "white-left-arrow.svg": "white-left-arrow.d25593.svg"
 }
